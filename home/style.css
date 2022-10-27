@@ -577,7 +577,34 @@ form{
 
 
 
-/*----------css for small screen-------------------*/
+
+
+  @media only screen and (max-width: 900px){
+    #about .container{
+        height: 600px;
+    }
+    .container{
+        padding: 10px 25px;
+    }
+    .about-col-1 {
+        padding-top: 100px;
+    }
+    #services{
+        padding: 0;
+    }
+    #portfolio{
+        padding: 0;
+        margin: 0;
+    }
+    .grid-container div {
+    width: -webkit-fill-available;
+    }
+}
+
+
+
+
+/*----------css for phone screen-------------------*/
 nav .fa-solid{
     display: none;
 }
@@ -654,6 +681,7 @@ nav .fa-solid{
         flex-basis: 100%;
     }
     #about {
+        height: 1115px;
         padding: 20px 0;
     }
     .about-col-1, .about-col-2{
@@ -768,22 +796,3 @@ nav .fa-solid{
 
 
 
-
-/* @media only screen and (max-width: 900px){
-    #about .container{
-        height: 600px;
-    }
-    .container{
-        padding: 10px 25px;
-    }
-    .about-col-1 {
-        padding-top: 100px;
-    }
-    #services{
-        padding: 0;
-    }
-    #portfolio{
-        padding: 0;
-        margin: 0;
-    }
-} */
