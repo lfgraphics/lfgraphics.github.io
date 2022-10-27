@@ -670,7 +670,7 @@ nav .fa-solid{
         display: inline-block;
         grid-template-columns: auto auto auto;
         padding: 0px 0px;
-        margin-left: -85px;
+        margin: auto -91px;
     }
     .grid-container div{
         margin: 25px;
@@ -742,7 +742,7 @@ nav .fa-solid{
         margin-right: 14px;
     }
     .payment {
-            margin: auto 50vh;
+        margin: auto 28vh;
     }
     .raating{
         text-align: center;
