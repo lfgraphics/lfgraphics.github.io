@@ -13,8 +13,8 @@ body{
     height: 50px;
     margin-top: 15px;
 }
-.container{
-    padding: 10px 10%;
+.container {
+    padding: 10px 95px;
 }
 #header{
     width: 100%;
@@ -336,6 +336,7 @@ margin-left: 20px;
 
 /*-------contact-------*/
 .contact-left{
+    text-align: center;
     flex-basis: 40%;
     text-align-last: center;
 }
