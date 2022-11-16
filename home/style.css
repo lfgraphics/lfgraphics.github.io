@@ -103,7 +103,7 @@ nav ul li a:hover::after{
     border-radius: 15px;
 }
 .about-col-2{
-    flex-basis: 60%;
+    flex-basis: 100%;
 }
 .subtitle{
     font-size: 60px;
@@ -611,7 +611,7 @@ form{
 
   @media only screen and (max-width: 900px){
     #about .container{
-        height: 600px;
+        height: max-content;
     }
     .container{
         padding: 10px 25px;
@@ -711,7 +711,7 @@ nav .fa-solid{
         flex-basis: 100%;
     }
     #about {
-        height: 1155px;
+        height: max-content;
         padding: 20px 0;
     }
     .about-col-1, .about-col-2{
