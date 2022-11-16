@@ -190,7 +190,7 @@ nav ul li a:hover::after {
     font-weight: 400;
     display: block;
     height: 175px;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
 }
 
 .tab-contents.active-tab ul li a {
@@ -711,6 +711,10 @@ form {
         height: max-content;
     }
 
+    .tab-contents.active-tab{
+        overflow-y: scroll;
+    }
+
     .container {
         padding: 10px 25px;
     }
@@ -813,6 +817,10 @@ nav .fa-solid {
     /* after header styles */
     .container {
         padding: 5px 10%;
+    }
+
+    .tab-contents.active-tab{
+        overflow-y: scroll;
     }
 
     .subtitle,
