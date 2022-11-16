@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-    <style>
-        html {
-            scroll-behavior: smooth;
-        }
-    </style>
-    <!----#f46036---->
+<style>
+    html {
+        scroll-behavior: smooth;
+    }
+</style>
+<!----#f46036---->
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
@@ -19,188 +20,230 @@
     <link rel="apple-touch-icon" sizes="180x180" href="images/fevicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/fevicon/favicon-32x32.png">
     <link rel="manifest" href="images/fevicon/site.webmanifest">
-</head>    
+</head>
+
 <body>
-<div id="header">
-    <div id="home" class="container">
-        <nav>
-            <a href="/"><img src="images/letter mark.png" class="logo"></a>
-            <ul id="sidemenu" class="sidemenu visuallyhiddenhidden">
-                <li id="home"><a href="#about">About</a></li>
-                <li><a href="#services">Servises</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
-            </ul>
-            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
-        </nav>
-        <div class="header-text">
-            <p>Graphics Designer<br>Excel consultant<!----<br>& Frontend developer----></p>
-            <h1><span>H</span><span>i</span><span>,</span><span> I</span><span>'</span><span>m </span><span class="name"><a href="#photo">Taha Kazmi</a></span><br><span> f</span><span>r</span><span>o</span><span>m</span><span> I</span><span>n</span><span>d</span><span>i</span><span>a</span></h1>
+    <div id="header">
+        <div id="home" class="container">
+            <nav>
+                <a href="/"><img src="images/letter mark.png" class="logo"></a>
+                <ul id="sidemenu" class="sidemenu visuallyhiddenhidden">
+                    <li id="home"><a href="#about">About</a></li>
+                    <li><a href="#services">Servises</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Graphics Designer<br>Excel consultant
+                    <!----<br>& Frontend developer---->
+                </p>
+                <h1><span>H</span><span>i</span><span>,</span><span> I</span><span>'</span><span>m </span><span
+                        class="name"><a href="#photo">Taha Kazmi</a></span><br><span>
+                        f</span><span>r</span><span>o</span><span>m</span><span>
+                        I</span><span>n</span><span>d</span><span>i</span><span>a</span></h1>
+            </div>
         </div>
     </div>
-</div>
-<!------About---->
-<div id="about">
-    <div class="container">
-        <div class= "row">
-            <!-- <div class= "about-col-1">
+    <!------About---->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <!-- <div class= "about-col-1">
               <a href="#home"><img id="photo" src="images/me.jpg"></a>
             </div> -->
-            <div class= "about-col-2">
-                <h1 class="subtitle">About me</h1>
-                <p>Currently I'm self emloyed person and providing freelance services of some of my skills like Graphic Design, MS Excel, and Frontend development
-                    <br>
-                    All of these I have learned by self ofcourse I did some classes but none of them were sufficient for me that's why I learned by self
-                    <br>
-                    I like Graphic design the most and that's what i'm passionate about and I would love to work on a graphic design project with you (if you have one)
-                    <br>and I like to solve competitive, logical, and complex tasks or projects etc.
-                    <br>currently i'm learning backend so I can become a fullstack developer
-                </p>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About me</h1>
+                    <p>Currently I'm self emloyed person and providing freelance services of some of my skills like
+                        Graphic Design, MS Excel, and Frontend development
+                        <br>
+                        All of these I have learned by self ofcourse I did some classes but none of them were sufficient
+                        for me that's why I learned by self
+                        <br>
+                        I like Graphic design the most and that's what i'm passionate about and I would love to work on
+                        a graphic design project with you (if you have one)
+                        <br>and I like to solve competitive, logical, and complex tasks or projects etc.
+                        <br>currently i'm learning backend so I can become a fullstack developer
+                    </p>
+                    <div class="mid">
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <!----skills-->
+                            <ul>
+                                <li><span>Graphic Design</span><br>Print graphics, Digital graphics, Branding designs
+                                    etc. </li>
+                                <li><span>MS Excel</span><br>Solving businesses and schools E data managment problems
+                                </li>
+                                <li><span>Web design & Frontend development</span><br>UI design and frontend coading
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <!----experience-->
+                            <ul>
+                                <li><span>Graphic Design</span><br>Working as a Freelancer since 2019</li>
+                                <li><span>MS Excel</span><br>Solwing businesses financial data problems as an Excel
+                                    Expert since 2021</li>
+                                <li><span>Web design & Frontend development</span><br>Developing and designing websites
+                                    for businesses and and friends since 2022</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <!----education-->
+                            <ul>
+                                <li><span>Basic education</span><br>Stil I'm a student of graduation and intermidiate
+                                    was done in 2020 form state board (UP board)</li>
+                                <li><span>Skills</span><br>All the skills I've learned by self ("YouTube is an
+                                    underrated univercity" <sub>Taha Kazmi</sub>)</li>
+                                <li><span>Other certification Courses</span><br>I've a certificate of DCA which is
+                                    alloted from AMU and I've done CCC from a nearest institute</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------Services------>
+    <div id="services">
+        <h1 class="subtitle">My Services</h1>
+        <div class="grid-container">
+            <div class="services-list">
+                <i class="fa-solid fa-pen-nib"></i>
+                <h2>Graphic Design</h2>
+                <p>All kind of designing services from visiting card design to billboard design</p>
+                <a href="#gfx">Learn more<i class="fa-solid fa-up-right-from-square link"></i></a>
+            </div>
+            <div class="services-list">
+                <i class="fa-solid fa-file-excel"></i>
+                <h2>Excel cunsultancy</h2>
+                <p>Any problem related to data managment in Excel are to be solved here</p>
+                <a href="#exc">Learn more<i class="fa-solid fa-up-right-from-square link"></i></a>
+            </div>
+            <div class="services-list">
+                <i class="fa-solid fa-code"></i>
+                <h2>Web design & frontend development</h2>
+                <p>Interface design and structure with styles can be done by me</p>
+                <a href="#web">Learn more<i class="fa-solid fa-up-right-from-square link"></i></a>
+            </div>
+        </div>
+    </div>
 
-                <div class="tab-titles">
-                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                    <p class="tab-links" onclick="opentab('education')">Education</p>
+    <!-----portfolip----->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My works</h1>
+            <div class="work-list">
+                <div id="gfx" class="work">
+                    <img src="images/gfx.webp">
+                    <div class="layer">
+                        <h3>Graphic design</h3>
+                        <p>Take a look at my graphic design projects</p>
+                        <a href="../gfx/index.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
                 </div>
-                <div class="tab-contents active-tab" id="skills"><!----skills-->
-                    <ul>
-                        <li><span>Graphic Design</span><br>Print graphics, Digital graphics, Branding designs etc. </li>
-                        <li><span>MS Excel</span><br>Solving businesses and schools E data managment problems</li>
-                        <li><span>Web design & Frontend development</span><br>UI design and frontend coading</li>
-                    </ul>
+                <div id="exc" class="work">
+                    <img src="images/excel.webp">
+                    <div class="layer">
+                        <h3>MS Excel</h3>
+                        <p>Take a look at my Excel problem solving projects with description</p>
+                        <a href="../excel/index.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
                 </div>
-                <div class="tab-contents" id="experience"><!----experience-->
-                    <ul>
-                        <li><span>Graphic Design</span><br>Working as a Freelancer since 2019</li>
-                        <li><span>MS Excel</span><br>Solwing businesses financial data problems as an Excel Expert since 2021</li>
-                        <li><span>Web design & Frontend development</span><br>Developing and designing websites for businesses and and friends since 2022</li>
-                    </ul>
-                </div>
-                <div class="tab-contents" id="education"><!----education-->
-                    <ul>
-                        <li><span>Basic education</span><br>Stil I'm a student of graduation and intermidiate was done in 2020 form state board (UP board)</li>
-                        <li><span>Skills</span><br>All the skills I've learned by self ("YouTube is an underrated univercity" <sub>Taha Kazmi</sub>)</li>
-                        <li><span>Other certification Courses</span><br>I've a certificate of DCA which is alloted from AMU and I've done CCC from a nearest institute</li>
-                    </ul>
-                </div>
-            </div>
-    </div>
-</div>
-</div>
-<!------Services------>
-<div id="services">
-    <h1 class="subtitle">My Services</h1>
-    <div class="grid-container">
-        <div class="services-list">
-            <i class="fa-solid fa-pen-nib"></i>
-            <h2>Graphic Design</h2>
-            <p>All kind of designing services from visiting card design to billboard design</p>
-            <a href="#gfx">Learn more<i class="fa-solid fa-up-right-from-square link"></i></a>
-        </div>
-        <div class="services-list">
-            <i class="fa-solid fa-file-excel"></i>
-            <h2>Excel cunsultancy</h2>
-            <p>Any problem related to data managment in Excel are to be solved here</p>
-            <a href="#exc">Learn more<i class="fa-solid fa-up-right-from-square link"></i></a>
-        </div>
-        <div class="services-list">
-            <i class="fa-solid fa-code"></i>
-            <h2>Web design & frontend development</h2>
-            <p>Interface design and structure with styles can be done by me</p>
-            <a href="#web">Learn more<i class="fa-solid fa-up-right-from-square link"></i></a>
-        </div>
-    </div>
-</div>
-
-<!-----portfolip----->
-<div id="portfolio">
-    <div class="container">
-        <h1 class="subtitle">My works</h1>
-        <div class="work-list">
-            <div id="gfx" class="work">
-                <img src="images/gfx.webp">
-                <div class="layer">
-                    <h3>Graphic design</h3>
-                    <p>Take a look at my graphic design projects</p>
-                    <a href="../gfx/index.html"><i class="fa-solid fa-up-right-from-square"></i></a>
-                </div>
-            </div>
-            <div id="exc" class="work">
-                <img src="images/excel.webp">
-                <div class="layer">
-                    <h3>MS Excel</h3>
-                    <p>Take a look at my Excel problem solving projects with description</p>
-                    <a href="../excel/index.html"><i class="fa-solid fa-up-right-from-square"></i></a>
-                </div>
-            </div>
-            <div id="web" class="work">
-                <img src="images/web.webp">
-                <div class="layer">
-                    <h3>Web Design</h3>
-                    <p>Take a look at some of my web codes and website UI designs</p>
-                    <a href="../web/index.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                <div id="web" class="work">
+                    <img src="images/web.webp">
+                    <div class="layer">
+                        <h3>Web Design</h3>
+                        <p>Take a look at some of my web codes and website UI designs</p>
+                        <a href="../web/index.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-----contact------>
-<div id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="contact-left">
-                <h1 class="subtitle">Contact Me</h1>
-                <p><a href="mailto:lfgsbusinessmail@gmail.com" target="_blank"><i class="fa-solid fa-square-envelope"></i> Email at lfgsbusinessmail@gmail.com</a></p>
-                <p><a href="tel:+916393440986" target="_blank"><i class="fa-solid fa-phone"></i> Call at +91 63934 40986</a></p>
-                <div class="social-icons">
-                    <a href="https://api.whatsapp.com/send/?phone=916393440986&text&type=phone_number&app_absent=0" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
-                    <a href="https://www.instagram.com/lf_graphics_" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://www.facebook.com/taha.kazmi.50" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="https://twitter.com/Tahakazmi622" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="https://www.linkedin.com/in/taha-kazmi-a0328a254/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-                    <a href="https://github.com/lfgraphics" target="_blank"><i class="fa-brands fa-github"></i></a>
-                    <a href="https://www.youtube.com/c/LFGraphics" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+    <!-----contact------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><a href="mailto:lfgsbusinessmail@gmail.com" target="_blank"><i
+                                class="fa-solid fa-square-envelope"></i> Email at lfgsbusinessmail@gmail.com</a></p>
+                    <p><a href="tel:+916393440986" target="_blank"><i class="fa-solid fa-phone"></i> Call at +91 63934
+                            40986</a></p>
+                    <div class="social-icons">
+                        <a href="https://api.whatsapp.com/send/?phone=916393440986&text&type=phone_number&app_absent=0"
+                            target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/lf_graphics_" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/taha.kazmi.50" target="_blank"><i
+                                class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/Tahakazmi622" target="_blank"><i
+                                class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/taha-kazmi-a0328a254/" target="_blank"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com/lfgraphics" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.youtube.com/c/LFGraphics" target="_blank"><i
+                                class="fa-brands fa-youtube"></i></a>
+                    </div>
+                    <div class="btn-margin">
+                        <a href="/images/taha-kazmi-cv.pdf" download class="btn btn2">Download CV/ resume</a>
+                    </div>
                 </div>
-                <div class="btn-margin">
-                    <a href="/images/taha-kazmi-cv.pdf" download class="btn btn2">Download CV/ resume</a>
+                <div class="contact-right">
+                    <p class="info">Submit this form then I'll contact you</p>
+                    <form name="submit-to-google-sheet" action="submit">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <input type="phone" name="Mnumber" placeholder="Your Phone Number" required>
+                        <textarea name="Message" rows="2"
+                            placeholder="Your Message (I'd like to work on a graphic design project with you)"
+                            required></textarea>
+                        <button id="submit" class="btn" type="submit" style="margin-top: -0px;"
+                            onclick="showMessage()">Submit</button>
+                    </form>
                 </div>
-            </div>
-            <div class="contact-right">
-                <p class="info">Submit this form then I'll contact you</p>
-                <form name="submit-to-google-sheet" action="submit">
-                    <input type="text" name="Name" placeholder="Your Name" required>
-                    <input type="email" name="Email" placeholder="Your Email" required>
-                    <input type="phone" name="Mnumber" placeholder="Your Phone Number" required>
-                    <textarea name="Message" rows="2" placeholder="Your Message (I'd like to work on a graphic design project with you)" required></textarea>
-                    <button id="submit" class="btn" type="submit" style="margin-top: -0px;" onclick="showMessage()">Submit</button>
-                </form>
             </div>
         </div>
     </div>
-</div>
-<div class="coffee">
-<p>Thanks <i class="fa-solid fa-heart"></i> for visiting my portfolio website you can help me by working on a project with me<br>or You can</p>
-</div>
-<div class="payment">
-    <form>
-        <script  class="pay" src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_KUOM3wN0lBdua5"></script>
-    </form>
-</div>
-<div class="raating">
-    <p>or You can sympaly give rating and a positive feedback to my business listed on google</p>
-    <div class="rating">
-        <input type="radio" name="rating" value="5" id="5"><label for="5" class="hover2" onclick="gotoRating()">☆</label>
-        <input type="radio" name="rating" value="4" id="4"><label for="4" class="hover" onclick="gotoRating()">☆</label>
-        <input type="radio" name="rating" value="3" id="3"><label for="3" class="hover" onclick="gotoRating()">☆</label>
-        <input type="radio" name="rating" value="2" id="2"><label for="2" class="hover" onclick="gotoRating()">☆</label>
-        <input type="radio" name="rating" value="1" id="1"><label for="1" class="hover" onclick="gotoRating()">☆</label>
+    <div class="coffee">
+        <p>Thanks <i class="fa-solid fa-heart"></i> for visiting my portfolio website you can help me by working on a
+            project with me<br>or You can</p>
     </div>
-</div>
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top<i class="fa-solid fa-arrow-up-from-arc"></i></button>
-<div class="copyright">
-    <p>Copyright <i class="fa-regular fa-copyright"></i> made with <i class="fa-solid fa-heart"></i> by <a href="#photo">Taha Kazmi</a><br>All rights reserved</p>
-</div>
-<script src="script.js"></script>
+    <div class="payment">
+        <form>
+            <script class="pay" src="https://checkout.razorpay.com/v1/payment-button.js"
+                data-payment_button_id="pl_KUOM3wN0lBdua5"></script>
+        </form>
+    </div>
+    <div class="raating">
+        <p>or You can sympaly give rating and a positive feedback to my business listed on google</p>
+        <div class="rating">
+            <input type="radio" name="rating" value="5" id="5"><label for="5" class="hover2"
+                onclick="gotoRating()">☆</label>
+            <input type="radio" name="rating" value="4" id="4"><label for="4" class="hover"
+                onclick="gotoRating()">☆</label>
+            <input type="radio" name="rating" value="3" id="3"><label for="3" class="hover"
+                onclick="gotoRating()">☆</label>
+            <input type="radio" name="rating" value="2" id="2"><label for="2" class="hover"
+                onclick="gotoRating()">☆</label>
+            <input type="radio" name="rating" value="1" id="1"><label for="1" class="hover"
+                onclick="gotoRating()">☆</label>
+        </div>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top<i
+            class="fa-solid fa-arrow-up-from-arc"></i></button>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> made with <i class="fa-solid fa-heart"></i> by <a
+                href="#photo">Taha Kazmi</a><br>All rights reserved</p>
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
