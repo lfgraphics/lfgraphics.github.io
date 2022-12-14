@@ -278,7 +278,7 @@ nav ul li a:hover::after {
     padding: 10px 0;
 }
 
-.mid{
+.mid {
     background-color: #262626;
     border: 1px solid #ffffff;
     padding: 10px;
@@ -456,11 +456,12 @@ div p a i.fa-square-envelope {
 }
 
 .fa-instagram {
-    color: #f09433;
-    /* color: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);  */
-    /* color: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);  */
-    color: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-    /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 ); */
+    color: #fff;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .fa-facebook-f {
@@ -722,7 +723,7 @@ form {
         height: max-content;
     }
 
-    .tab-contents.active-tab{
+    .tab-contents.active-tab {
         overflow-y: scroll;
     }
 
@@ -830,7 +831,7 @@ nav .fa-solid {
         padding: 5px 10%;
     }
 
-    .tab-contents.active-tab{
+    .tab-contents.active-tab {
         overflow-y: scroll;
     }
 
