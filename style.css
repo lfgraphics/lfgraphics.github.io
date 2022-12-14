@@ -136,6 +136,9 @@ nav ul li a:hover::after {
     display: flex;
     margin: 20px 0 20px;
     justify-content: space-evenly;
+    background-color: #080808;
+    padding: 10px;
+    border-radius: 6px;
 }
 
 .tab-links {
@@ -273,6 +276,14 @@ nav ul li a:hover::after {
 /*----portfolio-----*/
 #portfolio {
     padding: 10px 0;
+}
+
+.mid{
+    background-color: #262626;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 10px;
 }
 
 .work-list {
