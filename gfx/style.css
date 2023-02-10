@@ -8,7 +8,7 @@
 body{
     /* background: #080808; */
     color: white;
-    background-image: url(images/desktop\ bg.jpg);
+    /* background-image: url(images/desktop\ bg.jpg); */
 }
 .logo{
     height: 50px;
@@ -54,7 +54,7 @@ body{
 
 @media only screen and (max-width: 600px){
     body{
-        background-image: url(images/phone\ bg.jpg);
+        /* background-image: url(images/phone\ bg.jpg); */
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
