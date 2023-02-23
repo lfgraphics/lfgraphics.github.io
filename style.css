@@ -535,6 +535,20 @@ form textarea {
     cursor: pointer;
 }
 
+.btn-payment {
+    color: #fff;
+    background-color: #f46036;
+    padding: 1em;
+    margin: 5px auto 10px auto;
+    border-radius: 6px;
+    transition: 0.5s;
+}
+.btn-payment:hover {
+    color: #f46036;
+    background-color: transparent;
+    border: 1px solid #f46036;
+}
+
 .btn-margin {
     margin-left: -13px;
 }
@@ -635,7 +649,7 @@ form {
 
 .coffee {
     text-align: center;
-    margin-top: 70px;
+    margin-top: 35px;
 }
 
 .payment {
@@ -957,7 +971,7 @@ nav .fa-solid {
     .coffee {
         text-align: center;
         margin-top: 0;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
         margin-left: 14px;
         margin-right: 14px;
     }

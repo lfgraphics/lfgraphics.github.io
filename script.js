@@ -1,3 +1,4 @@
+document.getElementsByClassName("fa-bars").click()
 // <!-- script of about section -->
 {/* <script> */ }
 var tablinks = document.getElementsByClassName("tab-links");
@@ -18,9 +19,13 @@ function opentab(tabname) {
 var sidemenu = document.getElementById("sidemenu");
 function openmenu() {
   sidemenu.style.width = "200px";
+  document.getElementsByClassName("fa-bars").style.display = "none";
+  document.getElementsByClassName("fa-xmark").style.display = "block";
 }
 function closemenu() {
   sidemenu.style.width = "0";
+  document.getElementsByClassName("fa-xmark").style.display = "none";
+  document.getElementsByClassName("fa-bars").style.display = "block";
 }
 // </script>
 // // <!-- script for go to top button -->
