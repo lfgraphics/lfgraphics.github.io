@@ -16,7 +16,7 @@ function opentab(tabname) {
 // </script>
 // <!-- script of side menu -->
 // <script>
-var sidemenu = document.getElementById("sidemenu");
+var sidemenu = document.getElementsByTagName('nav');
 function openmenu() {
   sidemenu.style.width = "200px";
   document.getElementsByClassName("fa-bars").style.display = "none";
