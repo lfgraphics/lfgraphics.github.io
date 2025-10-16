@@ -1,5 +1,8 @@
 # 💫 About Me:
-🔭 I’m currently working in Indian Tankers Pvt. Ltd. @ Software engineer role<br>🌱 I’m currently learning React Native and electron js for deeper understanding
+🔭 I’m currently working at [**Indian Tankers Pvt Ltd**](https://github.com/indiantankers) as a Software Engineer.  
+I also serve as a Lead at [**NeuraRise**](https://github.com/neurarise), and manage my own startup, [**Cod Vista**](https://github.com/cod-vista).  
+
+🌱 I'm currently exploring a new twist on the MERN stack - combining **Preact** with **Remix**.
 
 
 ## 🌐 Socials:
